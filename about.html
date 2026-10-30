@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f5ef" />
+    <meta
+      name="description"
+      content="Команда Алекса Морозова: PHP fullstack-разработка, продуктовый дизайн и запуск веб-продуктов."
+    />
+    <title>О нас — команда Алекса Морозова</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="site-header">
+        <a
+          class="wordmark"
+          href="index.html"
+          aria-label="Алекс Морозов, на главную"
+          >АМ<span>®</span></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-label="Открыть меню"
+          aria-expanded="false"
+        >
+          <span></span><span></span>
+        </button>
+        <nav class="site-nav" aria-label="Основная навигация">
+          <a href="projects.html" data-nav="projects">Проекты <span>04</span></a
+          ><a href="about.html" data-nav="about">О нас</a
+          ><a href="team.html" data-nav="team">Команда</a
+          ><a href="contact.html" data-nav="contact">Контакты</a>
+        </nav>
+        <a class="header-availability" href="contact.html"
+          ><i></i> Открыты к проектам</a
+        >
+      </header>
+      <main>
+        <section class="about-hero page-wrap">
+          <div class="about-copy reveal">
+            <p class="eyebrow"><span class="eyebrow-line"></span> Кто мы</p>
+            <h1>Мы — команда<span class="accent-dot">.</span></h1>
+            <p class="about-lead">
+              Создаём веб-продукты на PHP — от первого обсуждения до запуска и
+              поддержки.
+            </p>
+            <p>
+              В команде соединяются fullstack-разработка, продуктовый дизайн,
+              frontend и управление проектами. Берём задачу целиком или
+              подключаемся на нужном этапе: разбираемся в требованиях, выбираем
+              архитектуру, разрабатываем, тестируем и доводим продукт до
+              пользователей.
+            </p>
+            <a class="button button-dark" href="team.html"
+              >Познакомиться с командой <span aria-hidden="true">↗</span></a
+            >
+          </div>
+          <div class="about-image reveal">
+            <img
+              src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=85"
+              alt="Команда обсуждает веб-проект"
+            /><span class="about-image-caption"
+              >ТАШКЕНТ · РАБОТАЕМ УДАЛЁННО</span
+            ><span class="about-image-mark">PHP<br />TEAM</span>
+          </div>
+        </section>
+        <section class="about-values section-pad">
+          <div class="page-wrap about-values-grid">
+            <div class="about-section-label reveal">
+              <p class="eyebrow">Как мы работаем</p>
+              <span>Одна команда.<br />Общая ответственность.</span>
+            </div>
+            <div class="values-list">
+              <article class="value-item reveal">
+                <span>01</span>
+                <div>
+                  <h2>Сначала разбираемся</h2>
+                  <p>
+                    Уточняем цели, пользователей и ограничения. Согласуем объём
+                    работы до выбора технологий и начала разработки.
+                  </p>
+                </div>
+                <span class="value-mark">↗</span>
+              </article>
+              <article class="value-item reveal">
+                <span>02</span>
+                <div>
+                  <h2>Строим надёжную основу</h2>
+                  <p>
+                    Продумываем архитектуру PHP-приложения, модель данных, API,
+                    безопасность и тестирование — чтобы продукт было удобно
+                    развивать.
+                  </p>
+                </div>
+                <span class="value-mark">↗</span>
+              </article>
+              <article class="value-item reveal">
+                <span>03</span>
+                <div>
+                  <h2>Показываем прогресс</h2>
+                  <p>
+                    Работаем короткими этапами, регулярно делимся результатом и
+                    остаёмся на связи при запуске и дальнейшей поддержке.
+                  </p>
+                </div>
+                <span class="value-mark">↗</span>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="toolkit page-wrap section-pad">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">Полный цикл разработки</p>
+              <h2>Что делаем<span class="accent-dot">.</span></h2>
+            </div>
+            <p>Собираем состав и инструменты под конкретную задачу.</p>
+          </div>
+          <div class="toolkit-grid">
+            <div class="toolkit-item reveal">
+              <span>01</span>
+              <h3>Backend</h3>
+              <p>PHP 8 · Laravel · Symfony</p>
+            </div>
+            <div class="toolkit-item reveal">
+              <span>02</span>
+              <h3>Данные и API</h3>
+              <p>MySQL · PostgreSQL · REST</p>
+            </div>
+            <div class="toolkit-item reveal">
+              <span>03</span>
+              <h3>Интерфейс</h3>
+              <p>HTML · CSS · JavaScript · UX</p>
+            </div>
+            <div class="toolkit-item reveal">
+              <span>04</span>
+              <h3>Качество и запуск</h3>
+              <p>Docker · Composer · PHPUnit · Git</p>
+            </div>
+          </div>
+        </section>
+        <section class="page-cta page-wrap">
+          <p class="eyebrow">Начнём с разговора</p>
+          <a href="contact.html" class="cta-link"
+            >Обсудить ваш проект <span>↗</span></a
+          >
+        </section>
+      </main>
+      <footer class="site-footer page-wrap">
+        <a class="wordmark" href="index.html">АМ<span>®</span></a>
+        <p>© 2026 Алекс Морозов</p>
+        <div class="footer-links">
+          <a href="mailto:hello@alexmorozov.dev">Почта</a
+          ><a href="https://github.com" target="_blank" rel="noreferrer"
+            >GitHub ↗</a
+          ><a href="https://linkedin.com" target="_blank" rel="noreferrer"
+            >LinkedIn ↗</a
+          >
+        </div>
+        <a class="back-top" href="#app" aria-label="Наверх">↑</a>
+      </footer>
+    </div>
+    <script src="src/main.js" defer></script>
+  </body>
+</html>

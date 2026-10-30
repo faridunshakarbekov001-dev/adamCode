@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f5ef" />
+    <meta
+      name="description"
+      content="PHP-проекты Алекса Морозова: Laravel-приложения, API, интернет-магазины и веб-интерфейсы."
+    />
+    <title>Проекты — Алекс Морозов</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="site-header">
+        <a
+          class="wordmark"
+          href="index.html"
+          aria-label="Алекс Морозов, на главную"
+          >АМ<span>®</span></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-label="Открыть меню"
+          aria-expanded="false"
+        >
+          <span></span><span></span>
+        </button>
+        <nav class="site-nav" aria-label="Основная навигация">
+          <a href="projects.html" data-nav="projects">Проекты <span>04</span></a
+          ><a href="about.html" data-nav="about">О нас</a
+          ><a href="team.html" data-nav="team">Команда</a
+          ><a href="contact.html" data-nav="contact">Контакты</a>
+        </nav>
+        <a class="header-availability" href="contact.html"
+          ><i></i> Открыт к проектам</a
+        >
+      </header>
+      <main>
+        <section class="page-intro page-wrap">
+          <p class="eyebrow reveal">
+            <span class="eyebrow-line"></span> Избранное · 2023—2026
+          </p>
+          <div class="page-title-row reveal">
+            <h1>Проекты<span class="accent-dot">.</span></h1>
+            <p>
+              Немного стратегии, много внимания к деталям и код, который
+              держится на своих ногах.
+            </p>
+          </div>
+          <div
+            class="filter-bar reveal"
+            role="group"
+            aria-label="Фильтр проектов"
+          >
+            <button
+              class="filter-button is-active"
+              type="button"
+              data-filter="all"
+            >
+              Все <span>04</span></button
+            ><button class="filter-button" type="button" data-filter="web">
+              Веб-сайты <span>02</span></button
+            ><button class="filter-button" type="button" data-filter="product">
+              Продукты <span>02</span>
+            </button>
+          </div>
+        </section>
+        <section class="projects-list page-wrap">
+          <a
+            class="project-row reveal"
+            href="project.html?slug=forma"
+            data-category="web"
+            ><div class="project-row-image image-forma">
+              <img
+                src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1200&q=85"
+                alt="Интерьер для проекта Forma Studio"
+              /><span class="image-label"
+                >FORMA<br /><small>OBJECTS FOR LIVING</small></span
+              >
+            </div>
+            <div class="project-row-info">
+              <span class="project-row-number">01 / 04</span>
+              <h2>Forma Studio</h2>
+              <p>
+                Интернет-магазин на Laravel: каталог, корзина, оформление заказа
+                и панель управления товарами.
+              </p>
+              <div class="tag-list">
+                <span>E-commerce</span><span>PHP · Laravel</span
+                ><span>2025</span>
+              </div>
+              <span class="project-row-arrow">↗</span>
+            </div></a
+          >
+          <a
+            class="project-row reveal"
+            href="project.html?slug=northstar"
+            data-category="product"
+            ><div class="project-row-image image-northstar">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=85"
+                alt="Дашборд аналитики Northstar"
+              />
+              <div class="dashboard-label">
+                <span>northstar<span class="dashboard-mark">✳</span></span
+                ><strong>Revenue overview</strong
+                ><small>+18.6% <i>vs. last month</i></small>
+              </div>
+            </div>
+            <div class="project-row-info">
+              <span class="project-row-number">02 / 04</span>
+              <h2>Northstar</h2>
+              <p>
+                SaaS-панель с PHP API, ролевым доступом и аналитикой для
+                небольшой команды.
+              </p>
+              <div class="tag-list">
+                <span>SaaS</span><span>Laravel · API</span><span>2024</span>
+              </div>
+              <span class="project-row-arrow">↗</span>
+            </div></a
+          >
+          <a
+            class="project-row reveal"
+            href="project.html?slug=fieldnotes"
+            data-category="web"
+            ><div class="project-row-image image-fieldnotes">
+              <img
+                src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=85"
+                alt="Пейзаж для журнала Field Notes"
+              /><span class="fieldnotes-label"
+                >Field<br /><i>Notes</i
+                ><small>STORIES FROM OUTSIDE</small></span
+              >
+            </div>
+            <div class="project-row-info">
+              <span class="project-row-number">03 / 04</span>
+              <h2>Field Notes</h2>
+              <p>
+                Редакционный сайт на PHP с CMS, удобным управлением публикациями
+                и оптимизированной загрузкой изображений.
+              </p>
+              <div class="tag-list">
+                <span>Editorial</span><span>PHP · WordPress</span
+                ><span>2024</span>
+              </div>
+              <span class="project-row-arrow">↗</span>
+            </div></a
+          >
+          <a
+            class="project-row reveal"
+            href="project.html?slug=kinfolk"
+            data-category="product"
+            ><div class="project-row-image image-kinfolk">
+              <img
+                src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=85"
+                alt="Оплата заказа в Kinfolk Market"
+              /><span class="kinfolk-label"
+                >KIN<span>FOLK</span><small>MARKET</small></span
+              >
+            </div>
+            <div class="project-row-info">
+              <span class="project-row-number">04 / 04</span>
+              <h2>Kinfolk Market</h2>
+              <p>
+                Маркетплейс на Symfony: профили продавцов, общая корзина и
+                интеграция с платёжным шлюзом.
+              </p>
+              <div class="tag-list">
+                <span>Marketplace</span><span>PHP · Symfony</span
+                ><span>2023</span>
+              </div>
+              <span class="project-row-arrow">↗</span>
+            </div></a
+          >
+        </section>
+        <section class="page-cta page-wrap">
+          <p class="eyebrow">Следующий кейс может быть вашим</p>
+          <a href="contact.html" class="cta-link"
+            >Давайте работать вместе <span>↗</span></a
+          >
+        </section>
+      </main>
+      <footer class="site-footer page-wrap">
+        <a class="wordmark" href="index.html">АМ<span>®</span></a>
+        <p>© 2026 Алекс Морозов</p>
+        <div class="footer-links">
+          <a href="mailto:hello@alexmorozov.dev">Почта</a
+          ><a href="https://github.com" target="_blank" rel="noreferrer"
+            >GitHub ↗</a
+          ><a href="https://linkedin.com" target="_blank" rel="noreferrer"
+            >LinkedIn ↗</a
+          >
+        </div>
+        <a class="back-top" href="#app" aria-label="Наверх">↑</a>
+      </footer>
+    </div>
+    <script src="src/main.js" defer></script>
+  </body>
+</html>

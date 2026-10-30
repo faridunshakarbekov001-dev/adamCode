@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f5ef" />
+    <meta
+      name="description"
+      content="Команда веб-разработки: PHP backend, frontend, дизайн и управление проектами."
+    />
+    <title>Команда — Алекс Морозов</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="site-header">
+        <a
+          class="wordmark"
+          href="index.html"
+          aria-label="Алекс Морозов, на главную"
+          >АМ<span>®</span></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-label="Открыть меню"
+          aria-expanded="false"
+        >
+          <span></span><span></span>
+        </button>
+        <nav class="site-nav" aria-label="Основная навигация">
+          <a href="projects.html" data-nav="projects">Проекты <span>04</span></a
+          ><a href="about.html" data-nav="about">О нас</a
+          ><a href="team.html" data-nav="team">Команда</a
+          ><a href="contact.html" data-nav="contact">Контакты</a>
+        </nav>
+        <a class="header-availability" href="contact.html"
+          ><i></i> Открыт к проектам</a
+        >
+      </header>
+      <main>
+        <section class="team-intro page-wrap">
+          <p class="eyebrow reveal">
+            <span class="eyebrow-line"></span> Люди за продуктом
+          </p>
+          <div class="team-title-row reveal">
+            <h1>Команда<span class="accent-dot">.</span></h1>
+            <p>
+              Разные специализации, общий подход: создавать надёжные и понятные
+              цифровые продукты от идеи до запуска.
+            </p>
+          </div>
+        </section>
+        <section class="team-grid page-wrap" aria-label="Участники команды">
+          <article class="team-card reveal">
+            <div class="team-photo">
+              <img
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=85"
+                alt="Алекс Морозов"
+              /><span class="team-index">01 / 04</span
+              ><span class="team-specialty">PHP · Laravel</span>
+            </div>
+            <h2>Алекс Морозов</h2>
+            <p class="team-role">Fullstack-разработчик</p>
+            <p class="team-bio">
+              Проектирует backend, API и структуру данных, собирает интерфейс и
+              следит за качеством всего продукта.
+            </p>
+            <details class="team-details">
+              <summary>Профиль и навыки</summary>
+              <div class="team-detail-body">
+                <p>
+                  <strong>Отвечает за</strong> архитектуру, серверную логику,
+                  интеграции и выпуск продукта.
+                </p>
+                <p>
+                  <strong>Инструменты</strong> PHP 8, Laravel, Symfony, MySQL,
+                  PostgreSQL, Redis, Docker, PHPUnit.
+                </p>
+                <p>
+                  <strong>Вклад</strong> связывает интерфейс, API и базу данных
+                  в одну надёжную систему.
+                </p>
+              </div>
+            </details>
+          </article>
+          <article class="team-card reveal">
+            <div class="team-photo">
+              <img
+                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=85"
+                alt="Дина Каримова"
+              /><span class="team-index">02 / 04</span
+              ><span class="team-specialty">Product design</span>
+            </div>
+            <h2>Дина Каримова</h2>
+            <p class="team-role">Продуктовый дизайнер</p>
+            <p class="team-bio">
+              Исследует пользовательские сценарии и превращает сложные процессы
+              в ясные, аккуратные интерфейсы.
+            </p>
+            <details class="team-details">
+              <summary>Профиль и навыки</summary>
+              <div class="team-detail-body">
+                <p>
+                  <strong>Отвечает за</strong> исследование, прототипы,
+                  пользовательские потоки и визуальную систему.
+                </p>
+                <p>
+                  <strong>Инструменты</strong> Figma, дизайн-системы,
+                  интерактивные прототипы и usability-тесты.
+                </p>
+                <p>
+                  <strong>Вклад</strong> помогает проверить структуру продукта
+                  до начала разработки.
+                </p>
+              </div>
+            </details>
+          </article>
+          <article class="team-card reveal">
+            <div class="team-photo">
+              <img
+                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=85"
+                alt="Тимур Юлдашев"
+              /><span class="team-index">03 / 04</span
+              ><span class="team-specialty">HTML · CSS · JS</span>
+            </div>
+            <h2>Тимур Юлдашев</h2>
+            <p class="team-role">Frontend-разработчик</p>
+            <p class="team-bio">
+              Собирает адаптивные интерфейсы, настраивает взаимодействия и
+              помогает сделать продукт доступным.
+            </p>
+            <details class="team-details">
+              <summary>Профиль и навыки</summary>
+              <div class="team-detail-body">
+                <p>
+                  <strong>Отвечает за</strong> верстку, клиентскую логику,
+                  состояния загрузки и интеграцию с API.
+                </p>
+                <p>
+                  <strong>Инструменты</strong> HTML, CSS, JavaScript, Git,
+                  браузерные DevTools и средства проверки доступности.
+                </p>
+                <p>
+                  <strong>Вклад</strong> обеспечивает точное и стабильное
+                  отображение на мобильных и настольных устройствах.
+                </p>
+              </div>
+            </details>
+          </article>
+          <article class="team-card reveal">
+            <div class="team-photo">
+              <img
+                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=85"
+                alt="Мира Саидова"
+              /><span class="team-index">04 / 04</span
+              ><span class="team-specialty">Delivery</span>
+            </div>
+            <h2>Мира Саидова</h2>
+            <p class="team-role">Проджект-менеджер</p>
+            <p class="team-bio">
+              Координирует работу, поддерживает связь с клиентом и помогает
+              команде двигаться к результату.
+            </p>
+            <details class="team-details">
+              <summary>Профиль и навыки</summary>
+              <div class="team-detail-body">
+                <p>
+                  <strong>Отвечает за</strong> планирование, приоритеты,
+                  коммуникацию и контроль этапов.
+                </p>
+                <p>
+                  <strong>Инструменты</strong> дорожные карты, трекеры задач,
+                  документация и регулярные демо.
+                </p>
+                <p>
+                  <strong>Вклад</strong> делает ход проекта прозрачным для
+                  команды и заказчика.
+                </p>
+              </div>
+            </details>
+          </article>
+        </section>
+        <section class="team-note page-wrap">
+          <span
+            ><strong>Собираем состав под задачу.</strong> Подключаем нужных
+            специалистов на этапах дизайна, разработки и запуска.</span
+          ><span>Ташкент · Работаем удалённо</span>
+        </section>
+        <section class="page-cta page-wrap">
+          <p class="eyebrow">Есть задача для команды?</p>
+          <a href="contact.html" class="cta-link"
+            >Расскажите, что задумали <span>↗</span></a
+          >
+        </section>
+      </main>
+      <footer class="site-footer page-wrap">
+        <a class="wordmark" href="index.html">АМ<span>®</span></a>
+        <p>© 2026 Алекс Морозов</p>
+        <div class="footer-links">
+          <a href="mailto:hello@alexmorozov.dev">Почта</a
+          ><a href="https://github.com" target="_blank" rel="noreferrer"
+            >GitHub ↗</a
+          ><a href="https://linkedin.com" target="_blank" rel="noreferrer"
+            >LinkedIn ↗</a
+          >
+        </div>
+        <a class="back-top" href="#app" aria-label="Наверх">↑</a>
+      </footer>
+    </div>
+    <script src="src/main.js" defer></script>
+  </body>
+</html>
